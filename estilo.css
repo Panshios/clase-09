@@ -4,11 +4,12 @@ html, body {
 }
 
 body {
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
     color: #000;
     background: linear-gradient(180deg, rgba(225, 228, 239, 0.8) 200px, rgba(225, 228, 239, 0.9) 300px, rgba(225, 228, 239, 1) 400px), url('image-bg.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.4;
 }
 
@@ -24,7 +25,8 @@ a, em, strong {
 }
 
 h1 {
-    font-family: Georgia, serif;
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+    font-family: 'Source Sans Pro', sans-serif;
     color: #6d2b65;
 }
 
