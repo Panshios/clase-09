@@ -43,12 +43,12 @@
     </nav>
     <div class="container">
         <header>
-            <h1><a href="index.html">Lorem ipsum dolor sit amet</a></h1>
+            <h1><a href="index.html">Pioneer, lo nuevo de Magic the Gathering</a></h1>
         </header>
         <section>
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>Cras vitae justo commodo, consequat risus eget, egestas lorem. Quisque consequat sagittis odio eget gravida. Integer dignissim diam sit amet finibus ullamcorper. Nulla semper consequat eros vel accumsan.</p>
-            <p><a href="page-1.html">Vínculo a page-1.html</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor. Ut sapien lacus, euismod ut condimentum eget, hendrerit non ligula. Cras vitae justo commodo, consequat risus eget, egestas lorem. Quisque consequat sagittis odio eget gravida. Integer dignissim diam sit amet finibus ullamcorper. Nulla semper consequat eros vel accumsan.</p>
+            <h2>Valores en subida</h2>
+            <p>La creación de un formato implica mayor demanda de las cartas legales en éste que son de alto poder, el problema surge cuando esas mismas cartas ya se jugaban en otros formatos, en este caso Modern. Cosa que desde octubre de 2019 ha afectado a bastantes cartas existentes</p>
+            <p> Precios en cartas nuevas de Standard también se vería afectadas, incluso aunque no se jugaran en standard. El aumento de precio en el caso de <em>Thoughtseize</em> y <em>Jace, Vryn's Prodigy</em> se debió a la salida del nuevo formato, sin embargo, cartas como <em>Gideon of the Trials</em> fueron afectadas tardíamente a medida se conformó el <a href="page-1.html">Metagame</a>..</p>
             <figure>
                 <canvas id="uci"></canvas>
                 <figcaption>Indica fuente(s) de los datos</figcaption>
@@ -57,7 +57,7 @@
         </section>
         <footer>
             <hr>
-            <p>Nombre Apellido
+            <p>Francisco Pezoa
                 <time datetime="2020-05-06" class="derecha">Miércoles, 6 de mayo de 2020</time>
             </p>
         </footer>
@@ -68,38 +68,38 @@
         new Chart(document.getElementById('uci').getContext('2d'), {
             type: 'bar',
             data: {
-                labels: ["01/04", "02/04", "03/04", "04/04", "05/04", "06/04", "07/04", "08/04", "09/04", "10/04", "11/04", "12/04", "13/04", "14/04", "15/04", "16/04", "17/04", "18/04", "19/04", "20/04", "21/04", "22/04", "23/04", "24/04", "25/04", "26/04", "27/04", "28/04", "29/04", "30/04"],
+                labels: ["01/09/2019", "01/10/2019", "01/11/2019", "01/12/2019", "01/01/2020", "01/02/2020", "01/03/2020", "01/04/2020", "01/05/2020"],
                 datasets: [{
-                    label: 'CHILE',
+                    label: 'Gideon of the Trials',
                     borderColor: '#cc2f59',
                     backgroundColor: '#cc2f59',
                     borderWidth: 1,
                     pointRadius: 2,
                     lineTension: 0,
-                    data: [16, 18, 22, 27, 34, 37, 43, 48, 57, 65, 73, 80, 82, 92, 94, 105, 116, 126, 133, 139, 147, 160, 168, 174, 181, 189, 198, 207]
+                    data: [4.4, 3.8, 4.0, 4.0, 3.8, 3.9, 19.9, 20.1, 18.0]
                 }, {
-                    label: 'ARGENTINA',
+                    label: 'Jace, Vryns prodigy',
                     borderColor: '#2b89f5',
                     backgroundColor: '#2b89f5',
                     borderWidth: 1,
                     pointRadius: 2,
                     lineTension: 0,
-                    data: [28, 36, 39, 43, 44, 48, 56, 63, 72, 82, 83, 90, 97, 102, 111, 115, 123, 129, 132, 136, 147, 152, 165, 176, 185, 192, 197, 207]
+                    data: [23.0, 21.3, 46.2, 44.5, 36.0, 29.9, 41.7, 35.9, 36.7]
                 }, {
-                    label: 'ECUADOR',
+                    label: 'ThoughtSeize',
                     borderColor: '#6d2b65', // noten que este color coincide con el de h1{…} en el CSS
                     backgroundColor: '#6d2b65', // esto para darle consistencia a los colores en uso
                     borderWidth: 1,
                     pointRadius: 2,
                     lineTension: 0,
-                    data: [93, 120, 145, 172, 180, 191, 191, 242, 272, 297, 315, 333, 355, 369, 388, 403, 421, 456, 474, 507, 520, 537, 560, 576, 576, 576, 663, 871]
+                    data: [18.0, 17.5, 27.0, 35.8, 32.0, 34.7, 36.0, 31.3, 32.5]
                 }]
             },
             options: {
                 responsive: true,
                 title: {
                     display: true,
-                    text: 'MUERTES POR COVID19 DURANTE ABRIL, 2020'
+                    text: 'AUMENTO DE PRECIO DE CARTAS ENTRE SEPTIEMBRE 2019 A MAYO 2020'
                 },
                 tooltips: {
                     position: 'nearest',
